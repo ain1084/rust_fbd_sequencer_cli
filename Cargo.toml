@@ -4,12 +4,13 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Seiji Ainoguchi <seiji.ainoguchi@gmail.com>"]
 description = "A command-line tool for playing music using PSG or AY-3-8910 sound sources. It supports playing .fbd sequence files and can output directly to audio devices or generate .wav files."
+license = "MIT OR Apache-2.0"
 repository = "https://github.com/ain1084/rust_fbd_sequencer_cli"
 homepage = "https://github.com/ain1084/rust_fbd_sequencer_cli"
 documentation = "https://docs.rs/fbd_sequencer_cli"
 readme = "README.md"
 keywords = ["sequencer", "music", "PSG", "AY-3-8910", "audio"]
-categories = ["audio", "command-line-utilities"]
+categories = ["multimedia", "command-line-utilities"]
 
 [dependencies]
 byteorder = "1.5.0"
